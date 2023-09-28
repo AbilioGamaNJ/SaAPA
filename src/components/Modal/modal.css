@@ -1,0 +1,161 @@
+.modalBackground {
+  width: 100%;
+  height: auto;
+  top: 190px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  color: #532e1c;
+  align-items: center;
+}
+.modalContainer::-webkit-scrollbar-track {
+  background-color: #e6e6e6;
+}
+.modalContainer::-webkit-scrollbar {
+  width: 8px;
+
+  background: #000000;
+}
+.modalContainer::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 7px;
+}
+
+.imgmodal {
+  width: 95%;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.imgcontainer {
+  justify-content: center;
+  display: flex;
+}
+
+.modalContainer {
+  width: 40%;
+  max-height: 500px;
+  margin-top: 16px;
+  overflow-y: scroll;
+  border-radius: 12px;
+  background-color: #e6e6e6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navmodal {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  justify-content: space-between;
+  background-color: #e6e6e6;
+}
+
+.titlemodal {
+  margin-left: 5%;
+}
+
+.iconmodal {
+  margin-right: 5%;
+}
+
+.inpmodal {
+  width: 95%;
+  color: black;
+  border: 0;
+  font-family: roboto;
+  height: 5rem;
+  font-size: 18px;
+  border-radius: 0%;
+  padding-top: 20px;
+  padding-left: 15px;
+  box-shadow: none;
+  background-color: #e6e6e6;
+  resize: none;
+}
+
+.inpmodal:focus {
+  outline: none;
+}
+
+.descricaomodal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.inpmodal:focus {
+  box-shadow: none;
+  border: 0;
+}
+
+.footermodal {
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-radius: 0 0 12px 12px;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+}
+
+#input-file {
+  display: none;
+}
+
+.label-file {
+  margin-left: 5%;
+}
+
+.iconmodalimg:hover {
+  color: #5f3d2b;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+}
+
+.btnpostar {
+  margin-right: 5%;
+}
+
+.btnpostar {
+  transition-duration: 0.3s;
+}
+
+.btnpostar:hover {
+  background-color: #5f3d2b;
+  color: white;
+  transform: scale(1.05);
+}
+
+.fadeIn {
+  animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 10;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .modalContainer {
+    width: 95%;
+    height: auto;
+    margin-top: 16px;
+    border-radius: 12px;
+    background-color: #e6e6e6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+  }
+}
