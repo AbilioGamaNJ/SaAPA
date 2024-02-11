@@ -99,7 +99,7 @@ const ApiMapa = () => {
     <>
       <Navbar />
       <div className="Map">
-        <LoadScript googleMapsApiKey="AIzaSyDrTIZQcdJFV8sv5VwV-S4v2YOgtO3AcfU">
+        <LoadScript googleMapsApiKey="AIzaSyBR9lQa8zmcvvzbh1mbbetR7t59-pjCSxk">
           <GoogleMap
             mapContainerStyle={containerStyle}
             center={center}
